@@ -1,9 +1,9 @@
 [package]
-name = "cargo-prefetch"
+name = "cargo-prefetch-dependencies"
 version = "0.1.0"
 authors = ["Eric Huss"]
 edition = "2018"
-license = "MIT OR Apache-2.0"
+license = "MIT"
 keywords = ["cargo"]
 categories = ["development-tools::cargo-plugins"]
 readme = "README.md"
@@ -18,4 +18,5 @@ reqwest = "0.9"
 serde = "1.0"
 serde_derive = "1.0"
 tempfile = "3.0"
-toml = "0.5"
+toml = "0.8.19"
+semver = "1.0"
